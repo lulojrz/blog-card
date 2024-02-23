@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    padding: 100px;
+}
+
+.card {
+    width: 25%;
+    min-width: 310px;
+    
+    box-shadow: 5px 5px 5px #000;
+
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img-container {
+    width: 100%;
+}
+
+.img-container figure {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.btn {
+    margin: 5px;
+    display: flex;
+}
+
+.btn button {
+    justify-content: start;
+    padding: 10px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+.date {
+    display: flex;
+}
+
+.date span {
+    justify-content: start;
+    padding: 10px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.title h3 {
+
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-align: left;
+    padding: 10px;
+
+}
+.title h3:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    transition: .7s;
+}
+
+.desc p{
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 10px;
+}
+.img-circle{
+    width: 10%;
+}
+.img-circle img{
+    width: 100%;
+}
+.name{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+@media (max-width: 425px){
+    body{
+        padding: 50px;
+    }
+}
+@media (max-width: 375px){
+    body{
+        padding: 0px;
+    }
+}
